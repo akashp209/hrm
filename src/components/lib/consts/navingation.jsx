@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiOutlineViewGrid, HiCog, HiMail, HiBell, HiChip } from 'react-icons/hi'
+import { HiOutlineViewGrid, HiCog, HiMail, HiBell, HiChip, HiClipboardList, HiCalculator, HiReceiptTax } from 'react-icons/hi'
 
 export const DASHBOARD_SIDEBAR_LINKS = [
     {
@@ -19,6 +19,25 @@ export const DASHBOARD_SIDEBAR_LINKS = [
         label: 'Tables',
         path: '/tables',
         icon: <HiChip/>
+    },
+    {
+        key: 'menus',
+        label: 'Menus',
+        path: '/menus',
+        icon: <HiClipboardList/>
+    }
+    ,
+    {
+        key: 'accounting',
+        label: 'Accounting',
+        path: '/accounting',
+        icon: <HiCalculator/>
+    },
+    {
+        key: 'reports',
+        label: 'Reports',
+        path: '/reports',
+        icon: <HiReceiptTax/>
     }
 ]
 
