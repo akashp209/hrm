@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiOutlineViewGrid, HiCog, HiMail, HiBell } from 'react-icons/hi'
+import { HiOutlineViewGrid, HiCog, HiMail, HiBell, HiChip } from 'react-icons/hi'
 
 export const DASHBOARD_SIDEBAR_LINKS = [
     {
@@ -15,10 +15,10 @@ export const DASHBOARD_SIDEBAR_LINKS = [
         icon: <HiBell/>
     },
     {
-        key: 'products',
-        label: 'Products',
-        path: '/products',
-        icon: <HiBell/>
+        key: 'tables',
+        label: 'Tables',
+        path: '/tables',
+        icon: <HiChip/>
     }
 ]
 

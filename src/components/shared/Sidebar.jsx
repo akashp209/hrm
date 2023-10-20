@@ -26,7 +26,7 @@ function Sidebar() {
 function SidebarLink({item}){
     const { pathname } = useLocation;
     return(
-        <Link to={item.path} className={classNames(pathname === item.path ? 'text-white' : '' ,LinkClasses)}>
+        <Link to={item.path} className={classNames(pathname === item.path ? 'text-white' : 'text-neutral-400 ' ,LinkClasses)}>
             <span className='text-xl'>{item.icon}</span>
             {item.label}
         </Link>
