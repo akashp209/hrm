@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.toggle-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
