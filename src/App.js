@@ -5,6 +5,7 @@ import Layout from "./components/shared/Layout";
 import Dashboard from "./components/Dashboard";
 import Tables from "./components/Tables";
 import Orders from "./components/Orders";
+import Login from "./components/Login";
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
           <Route path="tables" element={<Tables />} />
           <Route path="orders" element={<Orders />} />
           
+          
         </Route>
+        <Route path="login" element={<Login />} />
       </Routes>
     </Router>
   );

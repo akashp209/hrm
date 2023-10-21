@@ -24,7 +24,7 @@ function Sidebar() {
                 <SidebarLink key={item.key} item={item} />
             )) }
         </div>
-        <div className={classNames('text-red-500', LinkClasses)}>
+        <div className={classNames('text-red-500 cursor-pointer', LinkClasses)}>
             <span className='text-xl'><HiLogout/></span>
             <span>Logout</span>
         </div>
